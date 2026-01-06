@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import { TabType } from './types';
-import DiscoveryJourney from './components/DiscoveryJourney';
-import MatchingMix from './components/MatchingMix';
-import SizeSorter from './components/SizeSorter';
-import MathWizard from './components/MathWizard';
-import StarJumble from './components/StarJumble';
-import TimePilot from './components/TimePilot';
+import { TabType } from './types.ts';
+import DiscoveryJourney from './components/DiscoveryJourney.tsx';
+import MatchingMix from './components/MatchingMix.tsx';
+import SizeSorter from './components/SizeSorter.tsx';
+import MathWizard from './components/MathWizard.tsx';
+import StarJumble from './components/StarJumble.tsx';
+import TimePilot from './components/TimePilot.tsx';
 
 // Extend the Window interface to include gtag
 declare global {

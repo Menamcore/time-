@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { TIME_WORDS } from '../constants';
-import { getGeminiTTS } from '../services/gemini';
+import { TIME_WORDS } from '../constants.tsx';
+import { getGeminiTTS } from '../services/gemini.ts';
 
 const DiscoveryJourney: React.FC = () => {
   const [index, setIndex] = useState(0);

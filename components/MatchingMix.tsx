@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { TIME_WORDS } from '../constants';
+import { TIME_WORDS } from '../constants.tsx';
 
 const MatchingMix: React.FC = () => {
   const [cards, setCards] = useState<any[]>([]);

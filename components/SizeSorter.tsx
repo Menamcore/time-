@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { TIME_WORDS } from '../constants';
+import { TIME_WORDS } from '../constants.tsx';
 
 const SizeSorter: React.FC = () => {
   const [items, setItems] = useState(() => [...TIME_WORDS].sort(() => 0.5 - Math.random()));

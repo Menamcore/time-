@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { SCENARIOS } from '../constants';
+import { SCENARIOS } from '../constants.tsx';
 
 const TimePilot: React.FC = () => {
   const [index, setIndex] = useState(0);
